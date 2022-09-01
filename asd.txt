@@ -1,0 +1,43 @@
+ Scanner input = new Scanner (System.in);
+         System.out.print("Enter Your Amount: ");
+         double amount = input.nextDouble();
+         int x = (int) amount*100;
+         x = x % 100;
+         System.out.print("Dollers: "+);
+
+
+
+
+
+      Scanner input = new Scanner (System.in);
+    
+    long totalMilliseconds = System.currentTimeMillis();
+    
+    long timeinsecs = totalMilliseconds/1000;
+    
+    long secs = ((timeinsecs)%60);
+    
+    long mins = ((timeinsecs/60)%60);
+    
+    long hrs = ((timeinsecs/3600)%24);
+    
+    System.out.println(hrs+":"+mins+":"+secs);
+    
+         
+
+
+
+
+      Scanner input = new Scanner (System.in);
+        
+        System.out.print("Enter the value of x: ");
+        int x = input.nextInt();
+         
+        System.out.print("Enter the value of y: ");
+        int y = input.nextInt();
+        
+        double z=Math.pow(x,2)+Math.pow(y,2);
+        
+        System.out.println("The Euclidean distance is: " + Math.sqrt(z) );
+
+
