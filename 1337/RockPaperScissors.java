@@ -26,7 +26,6 @@ opponent.*/
             do {
                 x = (int) (Math.random() * 10);
             } while (x > 2);
-            System.out.println(x);
 
             do {
                 System.out.print("Rock(0), Paper(1), Scissor(2): ");
