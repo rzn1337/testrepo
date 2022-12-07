@@ -47,33 +47,3 @@ public class App {
         }
     }
 }
-
-/*
- if (j == 0) {
-                    if (arr[i][j] <= arr[i][j+1]) {
-                        System.out.println("Saddle Point: " + arr[i][j] + ", Row: "+(i+1)+", Column: "+(j+1));
-                    }
-                    if (arr[i][j] <= arr[i][j+2]) {
-                        System.out.println("Saddle Point: " + arr[i][j] + ", Row: "+(i+1)+", Column: "+(j+1));
-                    }
-                }
-
-                if (j == 1) {
-                    if (arr[i][j] <= arr[i][j-1]) {
-                        System.out.println("Saddle Point: " + arr[i][j] + ", Row: "+(i+1)+", Column: "+(j+1));
-                    }
-                    if (arr[i][j] <= arr[i][j+1]) {
-                        System.out.println("Saddle Point: " + arr[i][j] + ", Row: "+(i+1)+", Column: "+(j+1));
-                    }
-                }
-
-                if (j == 2) {
-                    if (arr[i][j] <= arr[i][j-1]) {
-                        System.out.println("Saddle Point: " + arr[i][j] + ", Row: "+(i+1)+", Column: "+(j+1));
-                    }
-                    if (arr[i][j] <= arr[i][j-2]) {
-                        System.out.println("Saddle Point: " + arr[i][j] + ", Row: "+(i+1)+", Column: "+(j+1));
-                    }
-                }
-
- */
