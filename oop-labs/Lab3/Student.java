@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Student {
 
     public String fname;
@@ -66,12 +64,9 @@ public class Student {
 
     }
 
-
-
-
-
-
+    public String toString() {
+        return (this.fname + " " + this.lname + " " + this.courses[1] +" "+ this.courses[3] + " " + this.courses[5] + " " + this.courses[7] + " " + this.courses[9]);
+    }
 
 
 }
-
