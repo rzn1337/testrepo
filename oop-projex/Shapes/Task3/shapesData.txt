@@ -5,4 +5,3 @@ hexagon 650 750 850 850 750 650 350 300 350 400 450 400
 regularpentagon 1000 400 100
 regularhexagon 1250 400 100
 pentagram 700 600 100
-
