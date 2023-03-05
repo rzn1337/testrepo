@@ -1,0 +1,24 @@
+Create a Library class that has the following attributes:
+
+books: a list of Book objects
+borrowers: a list of Borrower objects
+The Library class should have the following methods:
+
+add_book(): adds a new Book object to the books list
+remove_book(): removes a Book object from the books list
+add_borrower(): adds a new Borrower object to the borrowers list
+remove_borrower(): removes a Borrower object from the borrowers list
+lend_book(): updates the status of a Book object to "borrowed" and assigns it to a Borrower object
+return_book(): updates the status of a Book object to "available" and removes it from a Borrower object's borrowed books list
+Create a Book class that has the following attributes:
+
+title: the title of the book
+author: the author of the book
+isbn: the International Standard Book Number (ISBN) of the book
+status: the status of the book (either "available" or "borrowed")
+Create a Borrower class that has the following attributes:
+
+name: the name of the borrower
+borrowed_books: a list of Book objects that the borrower has borrowed
+Your task is to implement the Library class and the Book and Borrower classes in Java, and write code to test their functionality. 
+For example, you could create a Library object, add some Book and Borrower objects to it, lend some books to borrowers, and return some books.
