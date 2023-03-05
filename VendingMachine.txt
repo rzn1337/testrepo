@@ -1,0 +1,13 @@
+Create a class hierarchy for a vending machine. The vending machine can sell snacks, drinks, and candy. Each item has a name, price, and quantity available. Additionally, the vending machine has a maximum capacity and a current capacity, which represents the number of items currently in the machine.
+
+Create an abstract class called "Item" with properties for the name, price, and quantity available. This class should have an abstract method called "get_info" that will be implemented in the subclasses.
+
+Create three subclasses of "Item" called "Snack", "Drink", and "Candy". Each subclass should implement the "get_info" method to return a string containing the name, price, and quantity available.
+
+Create a class called "VendingMachine" that has properties for the maximum capacity, current capacity, and an ArrayList of items in the machine. The class should have a method called "add_item" that adds an item to the ArrayList of items and increments the current capacity.
+
+Create a subclass of "VendingMachine" called "FoodVendingMachine" that only sells snacks and candy. This class should have a method called "get_items" that returns an ArrayList of all items in the machine.
+
+Create a subclass of "FoodVendingMachine" called "DrinkVendingMachine" that can also sell drinks. This class should override the "get_items" method to only return drinks if they are available.
+
+Finally, create an instance of "DrinkVendingMachine" and add some items to it. Test the "get_items" method to ensure it returns the correct ArrayList of items.
