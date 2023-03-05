@@ -1,0 +1,6 @@
+Create an abstract class called Vehicle which has abstract methods called start() and stop(). 
+Create three subclasses of Vehicle: Car, Motorcycle, and Truck. 
+Implement the start() and stop() methods for all three subclasses. 
+Then, create a class called Garage which has an ArrayList of Vehicle objects. 
+Define methods in Garage to add and remove Vehicle objects, as well as a method called service_all() which loops through all Vehicle objects in the ArrayList and calls their start() and stop() methods. 
+Implement a method in Truck called unload() which is called when stop() is invoked, to unload the cargo that the truck is carrying.
