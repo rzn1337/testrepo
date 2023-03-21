@@ -19,7 +19,7 @@ public class Main {
         platypus1.givesMilk();
         platypus2.givesMilk();
 
-        // platypus1.laysEggs();
+        // platypus1.laysEggs(); Type casting required => ((Platypus)platypus1).laysEggs();
         platypus2.laysEggs();
 
         bat1.flies();
